@@ -27,6 +27,8 @@ J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2
 ###### Gradient Descent
 an algorithm that you can use to try to minimize any function
 
+repeat both formula with new parameter each time until reach convergence (local minima): 
+
 ```math
  w := w - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) x^{(i)}
 ```
@@ -38,7 +40,6 @@ an algorithm that you can use to try to minimize any function
 ![Screenshot 2024-07-15 122010](https://github.com/user-attachments/assets/2aff0349-7709-4789-a59b-ca1d4524ee89)
 applicable for parameter b as well
 
-repeat until reach convergence (local minima)
 
 ### 2. Classification
 The learning algorithm has to make a prediction of a category, all of a small set of possible outputs or numbers.
