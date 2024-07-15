@@ -11,14 +11,15 @@ algorithm learns to predict numbers out of infinitely many possible numbers.
 fitting a straight line to your data. 
 ![difference](https://github.com/user-attachments/assets/2c43ca34-4995-4a4b-b4ed-fc8078b7d575)
 
-Univariate Linear Regression (One-variable linear regression)
+##### Univariate Linear Regression (One-variable linear regression)
 ![1_lEy6nZXfCm9xBZ4WR8wqHw](https://github.com/user-attachments/assets/df2e4608-8e16-4b30-b76d-43ab973df76b)
 
-Cost Function
+###### Cost Function
 What the cost function J does is, it measures the difference between the model's predictions, and the actual true values for y. What you see later, is that linear regression would try to find values for w, and b, then make a J of w be as small as possible. 
 ![Screenshot 2024-07-15 111823](https://github.com/user-attachments/assets/26090796-3dbc-4fe5-ab9d-50ceb4ded4d5)
 
-![squared cost function](https://github.com/user-attachments/assets/0237071c-2ff6-4962-ad32-0c4869a647ee)
+squared error cost function formula:
+(https://github.com/user-attachments/assets/0237071c-2ff6-4962-ad32-0c4869a647ee)
 
 
 
