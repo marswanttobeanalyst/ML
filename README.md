@@ -15,10 +15,11 @@ fitting a straight line to your data.
 ![1_lEy6nZXfCm9xBZ4WR8wqHw](https://github.com/user-attachments/assets/df2e4608-8e16-4b30-b76d-43ab973df76b)
 
 ###### Cost Function
-The cost function, J(θ) measures the difference between the model's predictions and the actual true values for y. In linear regression, the goal is to find the optimal values for the parameters w and b that minimize this cost function. By minimizing J, we ensure that our model's predictions are as close as possible to the true values, thereby improving the accuracy of the model.
+The cost function, J(θ) measures the difference between the model's predictions and the actual true values for y. In linear regression, the goal is to find the optimal values for the parameters w and b that minimize the cost function, J. By minimizing J, we ensure that our model's predictions are as close as possible to the true values, thereby improving the accuracy of the model.
 
+How to calculate Cost Function (Squared error Cost Function Formula):
 ```math
-\[ J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2 \]
+J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2
 ````
 
 
