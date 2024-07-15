@@ -13,7 +13,7 @@ fitting a straight line to your data.
 ##### Univariate Linear Regression (One-variable linear regression)
 ![1_lEy6nZXfCm9xBZ4WR8wqHw](https://github.com/user-attachments/assets/df2e4608-8e16-4b30-b76d-43ab973df76b)
 ```math
-hat{y} = w \cdot x + b
+ŷ = w \cdot x + b
 ```
 
 ###### Cost Function
