@@ -19,7 +19,8 @@ What the cost function J does is, it measures the difference between the model's
 ![Screenshot 2024-07-15 111823](https://github.com/user-attachments/assets/26090796-3dbc-4fe5-ab9d-50ceb4ded4d5)
 
 squared error cost function formula:
-(https://github.com/user-attachments/assets/0237071c-2ff6-4962-ad32-0c4869a647ee)
+![squared cost function](https://github.com/user-attachments/assets/d54bdbe1-9596-4ebc-9808-39785567a2bb)
+
 
 
 
