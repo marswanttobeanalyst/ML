@@ -35,6 +35,9 @@ an algorithm that you can use to try to minimize any function
  b := b - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)
 ```
 
+![Screenshot 2024-07-15 122010](https://github.com/user-attachments/assets/2aff0349-7709-4789-a59b-ca1d4524ee89)
+applicable for parameter b as well
+
 repeat until reach convergence (local minima)
 
 ### 2. Classification
