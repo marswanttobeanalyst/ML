@@ -23,17 +23,13 @@ The cost function \( J(\theta) \) measures the difference between the model's pr
 
 For linear regression, the most commonly used cost function is the Mean Squared Error (MSE). The formula for \( J(w, b) \) is given by:
 
-\[ J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2 \]
+![Cost Function](https://quicklatex.com/cache3/ql_c1a872e922dc0d9e4bc7a51690abf14c_l3.png)
 
 where:
 - \( m \) is the number of training examples.
 - \( \hat{y}^{(i)} \) is the predicted value for the \( i \)-th training example.
 - \( y^{(i)} \) is the actual true value for the \( i \)-th training example.
-- \( \hat{y}^{(i)} = w \cdot x^{(i)} + b \), where \( x^{(i)} \) is the input feature for the \( i \)-th training example.
-
-### Objective
-
-The objective of linear regression is to find the values of \( w \) and \( b \) that minimize \( J(w, b) \). By doing so, we ensure that the predictions made by the model are as close as possible to the actual true values, thereby reducing the prediction error and improving model performance.
+- \( \hat{y}^{(i)} = w \cdot x^{(i)} + b \), where \( x
 
 ![Screenshot 2024-07-15 111823](https://github.com/user-attachments/assets/26090796-3dbc-4fe5-ab9d-50ceb4ded4d5)
 
