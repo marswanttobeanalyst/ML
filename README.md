@@ -9,10 +9,12 @@ algorithm learns to predict numbers out of infinitely many possible numbers.
 
 #### Linear Regression
 fitting a straight line to your data. 
-![difference](https://github.com/user-attachments/assets/2c43ca34-4995-4a4b-b4ed-fc8078b7d575)
 
 ##### Univariate Linear Regression (One-variable linear regression)
 ![1_lEy6nZXfCm9xBZ4WR8wqHw](https://github.com/user-attachments/assets/df2e4608-8e16-4b30-b76d-43ab973df76b)
+```math
+hat{y} = w \cdot x + b
+```
 
 ###### Cost Function
 The cost function, J(θ) measures the difference between the model's predictions and the actual true values for y. In linear regression, the goal is to find the optimal values for the parameters w and b that minimize the cost function, J. By minimizing J, we ensure that our model's predictions are as close as possible to the true values, thereby improving the accuracy of the model.
