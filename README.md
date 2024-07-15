@@ -24,6 +24,18 @@ How to calculate Cost Function (Squared error Cost Function Formula):
 J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2
 ````
 
+###### Gradient Descent
+an algorithm that you can use to try to minimize any function
+
+```math
+ w := w - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) x^{(i)}
+```
+
+```math
+ b := b - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)
+```
+
+repeat until reach convergence (local minima)
 
 ### 2. Classification
 The learning algorithm has to make a prediction of a category, all of a small set of possible outputs or numbers.
