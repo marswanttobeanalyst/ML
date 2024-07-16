@@ -1,5 +1,5 @@
-# My diary of learning Machine Learning
-My progress of learning Machine Learning. The notes, the tutorial and the projects.
+# My diary of Machine Learning
+My progress of learning Machine Learning, Deep learning and everything AI related. The notes, the tutorial and the projects.
 
 ## Supervised Learning
 algorithms that learn x to y or input to output mappings. The key characteristic of supervised learning is that you give your learning algorithm examples to learn from.
